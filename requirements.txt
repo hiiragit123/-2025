@@ -1,0 +1,14 @@
+pandas>=2.0.0
+numpy>=1.24.0
+
+pyarrow>=12.0.0        # Parquet形式のサポート
+openpyxl>=3.1.0        # Excel形式のサポート (オプション)
+
+tqdm>=4.65.0
+
+psutil>=5.9.0          # システムリソース監視
+memory-profiler>=0.61.0 # メモリプロファイリング
+
+jupyterlab>=4.0.0      # Jupyter環境
+matplotlib>=3.7.0      # 可視化
+seaborn>=0.12.0        # 統計可視化

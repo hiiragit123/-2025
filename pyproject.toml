@@ -1,0 +1,38 @@
+[project]
+name = "subzemi"
+version = "0.1.0"
+description = "大きなデータ処理の最適化テクニック"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    # データ処理ライブラリ
+    "pandas",
+    "polars",
+    "numpy",
+
+    "pyarrow",
+
+    "tqdm",
+
+    # メモリ・パフォーマンス監視
+    "psutil",
+    "memory-profiler",
+]
+
+viz = [
+    "matplotlib",
+    "seaborn",
+    "plotly",
+]
+
+excel = [
+    # Excel形式のサポート
+    "openpyxl",
+    "xlsxwriter",
+]
+
+all = [
+    "big-data-optimization[dev,viz,excel]"
+]
+
