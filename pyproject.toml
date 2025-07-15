@@ -10,14 +10,13 @@ dependencies = [
     "pandas",
     "polars",
     "numpy",
-
     "pyarrow",
-
     "tqdm",
-
     # メモリ・パフォーマンス監視
     "psutil",
     "memory-profiler",
+    "pyright>=1.1.403",
+    "ruff>=0.12.3",
 ]
 
 viz = [
