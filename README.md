@@ -52,8 +52,7 @@ source .venv/bin/activate  # macOS/Linux
 .venv\Scripts\activate     # Windows
 
 # 3. 必要なパッケージのインストール
-uv synv
-
+uv sync
 # 4. コードの実行
 uv run {python ファイルのパス}
 ```

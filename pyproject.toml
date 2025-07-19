@@ -17,6 +17,7 @@ dependencies = [
     "memory-profiler",
     "pyright>=1.1.403",
     "ruff>=0.12.3",
+    "ipykernel>=6.29.5",
 ]
 
 viz = [
